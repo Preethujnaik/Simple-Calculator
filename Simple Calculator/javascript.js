@@ -1,3 +1,4 @@
+// Java Script file
 let result = document.getElementById("result");
 let buttons = document.querySelectorAll(".btn");
 let historyBtn = document.getElementById("history-btn");
@@ -60,4 +61,5 @@ historyBtn.addEventListener("click", () => {
 // Close history panel
 closePopup.addEventListener("click", () => {
     historyPopup.classList.remove("show");
+
 });
